@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+menu {
+    width: 100%;
+    height: 66px;
+    justify-content: space-between;
+    padding: 0px 24px 0px 24px;
+    display: flex;
+    background: white;
+    position: fixed;
+}
+
+.left {
+    display: flex;
+    width: 150px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.menu{
+    margin-right: 18px;
+}
+
+.center {
+    display: flex;
+    width: 404px;
+    height: 60px;
+    gap: 0px;
+}
+
+input {
+    border: 1px solid #ccc;
+    width: 348px;
+    height: 40px;
+    margin-top: 8px;
+    left: 526px;
+    gap: 0px;
+}
+
+button {
+    display: flex;
+    width: 57px;
+    height: 40px;
+    margin-top: 8px;
+    background: #fff;
+    gap: 0px;
+    border: 1px solid #ccc;
+}
+
+.center button img {
+    width: 24px;
+    height: 24px;
+    margin: auto;
+    gap: 0px;
+}
+
+.right {
+    display: flex;
+    width: 150px;
+    height: 34px;
+    gap: 24px;
+    margin-top: 16px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+menu .right .avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.watching-video {
+    width: 952px;
+    height: 746px;
+    margin-top: 100px;
+    margin-left: 78px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    text-align: left;
+}
+
+.video-actions {
+    margin-top: 20px;
+    width: 902px;
+    height: 42px;
+    display: flex;
+}
+
+.channel-info {
+    display: flex;
+}
+
+.channel-info p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    text-align: left;
+    margin: 5px;
+    width: 110px;
+    height: 32px;
+}
+
+.channel-info span {
+    font-weight: 400;
+    display: flex;
+}
+
+.video-actions .button button {
+    width: 159px;
+    height: 40px;
+    margin: 0 32px;
+    border-radius: 2px;
+    background: #CC0000;
+    color: #fff;
+}
+
+.video-actions .button button p {
+    color: #FFFFFF;
+    width: 80px;
+    height: 16px;
+    margin: 13px auto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+.video-actions .like {
+    width: 66px;
+    height: 24px;
+    margin: 8px 0 0 22px;
+    display: flex;
+}
+
+.video-actions .like p {
+    width: 41px;
+    height: 16px;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+.video-actions .deslike {
+    width: 103px;
+    height: 24px;
+    margin: 8px 0 0 42px;
+    display: flex;
+}
+
+.video-actions .deslike p {
+    width: 70px;
+    height: 16px;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+.video-actions .share {
+    width: 116px;
+    height: 24px;
+    margin: 8px 0 0 42px;
+    display: flex;
+}
+
+.video-actions .share p {
+    width: 85px;
+    height: 16px;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+.video-actions .download {
+    width: 95px;
+    height: 24px;
+    margin: 8px 0 0 42px;
+    display: flex;
+}
+
+.video-actions .download p {
+    width: 65px;
+    height: 16px;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+.video-info {
+    width: 512px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.video-info h2 {
+    font-size: 14px;
+    width: 391px;
+    margin: 0;
+}
+
+.video-info p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+    width: 510px;
+}
+
+.sidebar {
+    width: 500px;
+    height: 938px;
+    margin: 100px 72px;
+}
+
+.videos {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.videos .text {
+    width: 320px;
+    padding: 0 10px;
+}
+
+.videos p {
+    width: 300px;
+    height: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 2px;
+    padding: 1px;
+}
+
+.videos h2 {
+    margin: 0;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 600;
+}
